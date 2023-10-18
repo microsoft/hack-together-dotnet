@@ -3,7 +3,7 @@
 ![dotnet hack together banner (1)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/6b34a40e-27d1-4b6c-8604-f45aceb9877e)
 
 <p align="center">
-  <a href="https://aka.ms/hacktogether/dotnet/register"><img src="https://img.shields.io/badge/hackathon-survey-green?style=for-the-badge" alt="Register now" border="0" /></a>
+  <a href="https://aka.ms/hacktogether/dotnet/register"><img src="https://img.shields.io/badge/HackTogether-Register-6264A7?style=for-the-badge&logoColor=white&logo=MicrosoftTeams" alt="Register now" border="0" /></a>
 </p>
 
 
