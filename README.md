@@ -2,7 +2,7 @@
 
 ![dotnet hack together banner (1)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/6b34a40e-27d1-4b6c-8604-f45aceb9877e)
 
-[**Register now!**](https://aka.ms/hacktogether/dotnet/register)
+Make sure to register for the hackathon! [**Register now!**](https://aka.ms/hacktogether/dotnet/register)
 
 
 ## Introduction
@@ -13,5 +13,5 @@ Hack Together is your playground for coding and experimenting with .NET. With me
 
 The hackathon starts on **November 20th** right after .NET Conf and ends on **December 4th**. It is recommended for participants to follow the Hack Together Roadmap for a successful hackathon.
 
-Introduce yourself, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/)
+Introduce yourself, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
 
