@@ -15,3 +15,4 @@ The hackathon starts on **November 20th** right after .NET Conf and ends on **De
 
 Introduce yourself, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
 
+## Stay tuned for more updates with livestream sessions, learning materials, judging, prizes, and more!
