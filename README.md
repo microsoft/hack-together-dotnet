@@ -15,4 +15,11 @@ The hackathon starts on **November 20th** right after .NET Conf and ends on **De
 
 Introduce yourself, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
 
+## Samples to get inspired ✨
+If you are looking for scenarios or project ideas to get inspired, we have many samples available for you to explore! Check out below repositories to discover what you can build and get some inspiration for your hack!
+
+- [ConsoleGPT](https://github.com/aaronpowell/ConsoleGPT) - .NET Console demos for a chat experience using Azure OpenAI
+- [Image Generation sample](https://github.com/aaronpowell/GenerateAndChill) - Generate images with DALL-E, it also supports non-English language prompts through translations
+- [Chat with your own data](https://github.com/Azure-Samples/azure-search-openai-demo-csharp) - An application using the RAG (Retrival Augmented Generation) pattern to allow you to ask questions of your own data
+
 ## Stay tuned for more updates with livestream sessions, learning materials, judging, prizes, and more!
