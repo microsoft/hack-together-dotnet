@@ -36,7 +36,10 @@ Either team up (max 3 team members) or fly solo to join the hacking! Make sure t
 
 ### #03 - Submit your project until December 4th 23:59 PM PST
 
-You may submit your project here when it's ready: **🚀 Project Submission**
+You may submit your project here when it's ready: **🚀 [Project Submission](https://github.com/microsoft/hack-together-dotnet/issues/new?assignees=&labels=&projects=&template=project.yml&title=Project%3A+%3Cshort+description%3E)**
+
+Check out this video for step by step project submission guidance:
+[Project Submission Video](https://github.com/microsoft/hack-together-teams/assets/3199282/572ea387-61ec-4b77-9885-23b5b2bd39bd)
 
 There will be a grand prize winner out of all projects as well as a 'Best Intelligent Apps solution' and 'Best Cloud Native solution,' so it is worthwhile to align your hack to one of these categories.
 
