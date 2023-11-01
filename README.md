@@ -13,7 +13,9 @@ Hack Together is your playground for coding and experimenting with .NET. With me
 
 The hackathon starts on **November 20th** right after .NET Conf and ends on **December 4th**. It is recommended for participants to follow the Hack Together Roadmap for a successful hackathon.
 
-## HackTogether Roadmap 🗺️
+## Hack Together Roadmap 🗺️
+
+![dotnet hack roadmap (1)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/d4e36252-3dad-4c8e-b2b2-45b048f36101)
 
 Follow the steps below to successfully complete the hackathon.
 
@@ -29,6 +31,8 @@ Either team up (max 3 team members) or fly solo to join the hacking! Make sure t
 
 ### #02 - Join live sessions for learning and inspiration
 
+[![Calendar Invite](https://img.shields.io/badge/ADD%20TO%20CALENDAR-4285F4?style=for-the-badge&label=&labelColor=555555&logoColor=white&logo=googlecalendar)](https://aka.ms/hacktogether/dotnet/sessions)
+
 * **November 20th - Join live:** Welcome and what's new in .NET 8
 * **November 27th - Join live:** Generative AI for the .NET developer
 * **November 29th - Join live:** Your stack for building Cloud Native apps
@@ -42,9 +46,6 @@ Check out this video for step by step project submission guidance:
 [Project Submission Video](https://github.com/microsoft/hack-together-teams/assets/3199282/572ea387-61ec-4b77-9885-23b5b2bd39bd)
 
 There will be a grand prize winner out of all projects as well as a 'Best Intelligent Apps solution' and 'Best Cloud Native solution,' so it is worthwhile to align your hack to one of these categories.
-
-Check out this video for step by step project submission guidance:
-[Project Submission Video](https://github.com/microsoft/hack-together-teams/assets/3199282/572ea387-61ec-4b77-9885-23b5b2bd39bd)
 
 We'd love to hear about your project, tell us what you are working on!
 
