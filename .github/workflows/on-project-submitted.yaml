@@ -1,0 +1,29 @@
+name: On Project Submitted
+
+on:
+  issues:
+    types:
+    - opened
+  workflow_dispatch:
+    inputs:
+      issue-number:
+        description: 'Issue number'
+        required: true
+
+permissions:
+  contents: read
+  id-token: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  verification-start:
+    name: 'Starting verification'
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check event payload
+      shell: pwsh
+      run: |
+        $eventPayload = ${{ toJson(github) }}
