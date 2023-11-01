@@ -22,9 +22,9 @@ Follow the steps below to successfully complete the hackathon.
 
 ### #00 - Pre-requisites
 
-Register to Hack Together: https://aka.ms/hacktogether/dotnet/register
+**Register to Hack Together:** https://aka.ms/hacktogether/dotnet/register
 
-Introduce yourself, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
+**Introduce yourself**, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
 
 ### #01 - Start hacking on November 20th
 
