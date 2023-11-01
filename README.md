@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href=[![Register](https://img.shields.io/badge/Hack_Together-Register-512BD4?style=for-the-badge&logoColor=white&logo=dotnet)](https://aka.ms/hacktogether/dotnet/register) /></a>
-</p>p>
+</p>
 
 
 
