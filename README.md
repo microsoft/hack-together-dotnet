@@ -2,7 +2,7 @@
 
 ![dotnet hack together banner (1)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/6b34a40e-27d1-4b6c-8604-f45aceb9877e)
 
-Make sure to register for the hackathon! [**Register now!**](https://aka.ms/hacktogether/dotnet/register)
+[![Register](https://img.shields.io/badge/Hack_Together-Register-512BD4?style=for-the-badge&logoColor=white&logo=dotnet)](https://aka.ms/hacktogether/dotnet/register)
 
 
 ## Introduction
