@@ -68,6 +68,7 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 
 ### AI
 
+* [Generative AI for Beginners](https://aka.ms/genai-beginners)
 * [Fundamentals of Generative AI](https://learn.microsoft.com/training/paths/introduction-generative-ai/)
 * [Generate text and conversations with .NET and Azure OpenAI Completions](https://learn.microsoft.com/training/modules/open-ai-dotnet-text-completions/)
 * [Demystifying Retrieval Augmented Generation with .NET](https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/)
