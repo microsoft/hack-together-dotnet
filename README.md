@@ -36,7 +36,7 @@ Either team up (max 3 team members) or fly solo to join the hacking! Make sure t
 
 * **November 20th - Join live:** Welcome and what's new in .NET 8
 * **November 27th - Join live:** Generative AI for the .NET developer
-* **November 29th - Join live:** .NET 8 - Your stack for building Cloud Native apps
+* **November 28th - Join live:** .NET 8 - Your stack for building Cloud Native apps
 * **December 4th - Join live:** Wrap up
 
 ### #03 - Submit your project until December 4th 23:59 PM PST
