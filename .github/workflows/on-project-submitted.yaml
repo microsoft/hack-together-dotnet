@@ -59,8 +59,55 @@ jobs:
 
         echo "isValid=$isValid" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
 
+        $tz = [TimeZoneInfo]::FindSystemTimeZoneById("US/Pacific")
+        $dateSubmitted = [DateTimeOffset]::Parse("${{ steps.issue.outputs.createdAt }}")
+        $offset = $tz.GetUtcOffset($dateSubmitted)
+
+        $dateSubmitted = $dateSubmitted.ToOffset($offset)
+        $dateDue = $([DateTimeOffset]::Parse("${{ vars.SUBMISSION_DUE_DATE }}"))
+        $isOverdue = "$($dateSubmitted -gt $dateDue)".ToLowerInvariant()
+
+        $dateSubmittedValue = $dateSubmitted.ToString("yyyy-MM-ddTHH:mm:ss.fffzzz")
+        $dateDueValue = $dateDue.ToString("yyyy-MM-ddTHH:mm:ss.fffzzz")
+
+        echo "dateSubmitted=$dateSubmittedValue" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
+        echo "dateDue=$dateDueValue" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
+        echo "isOverdue=$isOverdue" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
+
+    - name: Comment to issue - Overdue
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'true'
+      uses: actions-cool/issues-helper@v3
+      with:
+        actions: 'create-comment'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        issue-number: ${{ steps.issue.outputs.issueNumber }}
+        body: |
+          Hey, @${{ steps.issue.outputs.githubId }}
+
+          * Submitted: ${{ steps.project.outputs.dateSubmitted }}
+          * Due: ${{ steps.project.outputs.dateDue }}
+
+          Unfortunately, your submission is overdue, so we can't accept yours.
+
+    - name: Add label - Overdue
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'true'
+      uses: actions-cool/issues-helper@v3
+      with:
+        actions: 'add-labels'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        issue-number: ${{ steps.issue.outputs.issueNumber }}
+        labels: 'overdue'
+
+    - name: Close issue - Overdue
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'true'
+      uses: actions-cool/issues-helper@v3
+      with:
+        actions: 'close-issue'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        issue-number: ${{ steps.issue.outputs.issueNumber }}
+
     - name: Check project details
-      if: steps.project.outputs.isValid == 'true'
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false'
       id: projectDetails
       shell: pwsh
       run: |
@@ -79,7 +126,7 @@ jobs:
         echo "videoUrl=$projectVideoUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
 
     - name: Vaildate project details
-      if: steps.project.outputs.isValid == 'true'
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false'
       id: validation
       shell: pwsh
       run: |
@@ -90,7 +137,7 @@ jobs:
         echo "isValidVideoUrl=$isValidVideoUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
 
     - name: Add label - Under review
-      if: steps.project.outputs.isValid == 'true'
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false'
       uses: actions-cool/issues-helper@v3
       with:
         actions: 'add-labels'
@@ -99,7 +146,7 @@ jobs:
         labels: 'under review'
 
     - name: Add label - Invalid project repository URL
-      if: steps.project.outputs.isValid == 'true' && steps.validation.outputs.isValidRepositoryUrl == 'false'
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false' && steps.validation.outputs.isValidRepositoryUrl == 'false'
       uses: actions-cool/issues-helper@v3
       with:
         actions: 'add-labels'
@@ -108,7 +155,7 @@ jobs:
         labels: 'invalid:project'
 
     - name: Add label - Invalid video URL
-      if: steps.project.outputs.isValid == 'true' && steps.validation.outputs.isValidVideoUrl == 'false'
+      if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false' && steps.validation.outputs.isValidVideoUrl == 'false'
       uses: actions-cool/issues-helper@v3
       with:
         actions: 'add-labels'
