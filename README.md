@@ -83,19 +83,19 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 
 Projects will be evaluated by a panel of judges, including Microsoft executives, product managers, and developer advocates. Judging criteria will include innovation, impact, technical usability, and alignment with corresponding hackathon category.
 
-The winners will receive the following exciting prizes (up to 3 individuals if submitting as a team, prizes for each person on the team). Winning solutions and/or product feedback may also be considered for integration into the .NET roadmap. Winners will also have the opportunity to showcase their projects to experts and leaders on the .NET YouTube channels.
+The winning teams will receive the following exciting prizes (up to 3 individuals if submitting as a team, prizes distributed per team). Winning solutions and/or product feedback may also be considered for integration into the .NET roadmap. Winners will also have the opportunity to showcase their projects to experts and leaders on the .NET YouTube channel.
 
 **🏆 Grand Prize winner:** _The best of the best! This category rewards the solution that meets all judging criteria, wows judges, and has potential real-world value._
 
-* $500 cash prize 💸
+* $1500 cash prize 💸
 
 **🥇 Best Intelligent Apps solution:**
 
-* $100 Azure credits
+* $500 Azure credits
 
 **🥇 Best Cloud Native solution:**
 
-* $100 Azure credits
+* $500 Azure credits
 
 **🏅 All hackathon participants who submit an app will receive a digital badge.**
 
