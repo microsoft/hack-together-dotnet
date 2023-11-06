@@ -91,11 +91,11 @@ The winning teams will receive the following exciting prizes (up to 3 individual
 
 **🥇 Best Intelligent Apps solution:**
 
-* $500 Azure credits
+* $500 cash prize 💸
 
 **🥇 Best Cloud Native solution:**
 
-* $500 Azure credits
+* $500 cash prize 💸
 
 **🏅 All hackathon participants who submit an app will receive a digital badge.**
 
