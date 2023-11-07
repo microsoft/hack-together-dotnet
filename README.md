@@ -34,10 +34,10 @@ Either team up (max 3 team members) or fly solo to join the hacking! Make sure t
 
 [![Calendar Invite](https://img.shields.io/badge/ADD%20TO%20CALENDAR-4285F4?style=for-the-badge&label=&labelColor=555555&logoColor=white&logo=googlecalendar)](https://aka.ms/hacktogether/dotnet/sessions)
 
-* **November 20th - Join live:** Welcome and what's new in .NET 8
-* **November 27th - Join live:** Generative AI for the .NET developer
-* **November 28th - Join live:** .NET 8 - Your stack for building Cloud Native apps
-* **December 4th - Join live:** Wrap up
+* **November 20th @ 2 PM Pacific - Join live:** Welcome and what's new in .NET 8 with Aaron Powell, Matt Soucoup and Gaurav Seth
+* **November 27th @ 11 AM Pacific - Join live:** Generative AI for the .NET developer with Matt Soucoup and Diego Colombo
+* **November 28th @ 4 PM Pacific - Join live:** .NET 8 - Your stack for building Cloud Native apps with Justin Yoo, Jorge Arterio and Paul Yu
+* **December 4th @ 3 PM Pacific - Join live:** Wrap up with special guest stars
 
 ### #03 - Submit your project until December 4th 23:59 PM PST
 
