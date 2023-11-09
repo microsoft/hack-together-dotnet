@@ -87,7 +87,7 @@ The winning teams will receive the following exciting prizes (up to 3 individual
 
 **🏆 Grand Prize winner:** _The best of the best! This category rewards the solution that meets all judging criteria, wows judges, and has potential real-world value._
 
-* $1500 cash prize 💸
+* $500 cash prize per individual (up to 3 if entering as a team) 💸
 
 **🥇 Best Intelligent Apps solution:**
 
@@ -105,3 +105,9 @@ The winning teams will receive the following exciting prizes (up to 3 individual
 >2. Impact
 >3. Technical Usability/User Experience
 >4. Alignment with hackathon category (either Intelligent Apps or Cloud Native)
+
+> **ℹ️ Additional cash prize info**
+> - One (1) Grand Prize winner (up to 3 individuals if submitting as a team). The individuals on the Grand Prize winning team will each receive a $500 cash prize and a digital Credly badge. Approximate Retail Value (ARV)
+$500 per individual, up to $1500 total for a team of three
+> - One (1) Best Cloud-Native winner (up to 3 individuals if submitting as a team). The Best Cloud-Native winning team will receive a $500 cash prize to evenly split amongst team members and a digital Credly badge. Approximate Retail Value (ARV) $500 per team
+> - One (1) Best Intelligent App winner (up to 3 individuals if submitting as a team). The Best Intelligent App winning team will receive a $500 cash prize to evenly split amongst team members and a digital Credly badge. Approximate Retail Value (ARV) $500 per team
