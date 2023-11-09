@@ -14,7 +14,7 @@ The hackathon starts on **November 20th** right after .NET Conf and ends on **De
 
 ## Hack Together Roadmap 🗺️
 
-![dotnet hack roadmap (1)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/d4e36252-3dad-4c8e-b2b2-45b048f36101)
+![dotnet hack roadmap (2)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/dd535d27-eb67-4aff-bd69-e0120c3309ff)
 
 Follow the steps below to successfully complete the hackathon.
 
