@@ -36,8 +36,8 @@ Either team up (max 3 team members) or fly solo to join the hacking! Make sure t
 
 * **November 20th @ 2 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231120T220000&p1=1244) - Join live:** [Welcome and what's new in .NET 8 with Aaron Powell, Matt Soucoup and Gaurav Seth](https://aka.ms/hacktogether/dotnet/session1)
 * **November 27th @ 11 AM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231127T190000&p1=1244) - Join live:** [Generative AI for the .NET developer with Matt Soucoup and Diego Colombo](https://aka.ms/hacktogether/dotnet/session2)
-* **November 28th @ 4 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231128T220000&p1=1244) - Join live:** .NET 8 - Your stack for building Cloud Native apps with Justin Yoo, Jorge Arterio and Paul Yu
-* **December 4th @ 3 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231204T230000&p1=1244) - Join live:** Wrap up with special guest stars
+* **November 28th @ 4 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231128T220000&p1=1244) - Join live:** .NET 8 - [Your stack for building Cloud Native apps with Justin Yoo, Jorge Arterio and Paul Yu](https://aka.ms/hacktogether/dotnet/session3)
+* **December 4th @ 3 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231204T230000&p1=1244) - Join live:** [Wrap up with special guest stars](https://aka.ms/hacktogether/dotnet/session4)
 
 ### #03 - Submit your project until December 4th 23:59 PM PST
 
