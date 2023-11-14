@@ -24,7 +24,7 @@ Follow the steps below to successfully complete the hackathon.
 
 **Introduce yourself**, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
 
-**Planning on hacking with Azure OpenAI?** Make sure to [request access to the API.](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu&culture=en-us&country=us)
+**Planning on hacking with Azure OpenAI?** Make sure to [request access to the API.](https://aka.ms/oaiapply)
 
 ### #01 - Start hacking on November 20th
 
