@@ -63,6 +63,8 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 ### Cloud Native
 
 * [eShop on Containers](https://github.com/dotnet-architecture/eShopOnContainers)
+* [Aspire Samples](https://github.com/dotnet/aspire-samples)
+* [Aspire YouTube Summariser](https://github.com/devkimchi/aspire-youtube-summariser)
 
 ## Recommended Learning Materials 📚
 
@@ -78,6 +80,7 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 * [Hands-on learning - Create Microservices with .NET and ASP.NET Core](https://learn.microsoft.com/training/paths/create-microservices-with-dotnet)
 * [Architecting cloud native .NET apps with Azure](https://learn.microsoft.com/dotnet/architecture/cloud-native/)
 * [.NET and Azure e-books](https://dotnet.microsoft.com/learn/azure/architecture)
+* [.NET Aspire](https://aka.ms/dotnet-aspire)
 
 ## Judging and Prizes 🏆
 
