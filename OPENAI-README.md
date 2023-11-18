@@ -6,7 +6,7 @@ You won't have direct access to an Azure OpenAI Service instance. Rather you'll 
 
 ## Pre-reqs
 
-1. [Fill out this form](https://aka.ms/hacktogether/dotnet/AzureOpenAIAccess) - we'll take a quick review of it, and then...
+1. [Fill out this form - coming soon!]() - we'll take a quick review of it, and then...
 1. Wait for an email with the URL to the proxy and your key.
 
 > Note: The key will be activated when the hackathon starts on November 20.
