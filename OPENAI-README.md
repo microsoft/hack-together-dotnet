@@ -1,6 +1,6 @@
 # Hack Together .NET - Limited Access to Azure OpenAI
 
-Hello! Thanks for your interest in hacking on .NET 8 and Azure OpenAI. This document is going to help get you up and running with the limited access to Azure OpenAI that we're providing as part of the hack!
+Hello! Thanks for your interest in hacking on .NET 8 and Azure OpenAI Service. This document is going to help get you up and running with the limited access to Azure OpenAI Service that we're providing as part of the hack!
 
 You won't have direct access to an Azure OpenAI instance. Rather you'll go through a proxy. Don't worry - you can stil use the same .NET Azure AI SDKs.
 
