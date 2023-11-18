@@ -57,6 +57,7 @@ completionOptions.Messages.Add(new ChatMessage(ChatRole.User, "hi there"));
 var response = await openAIClient.GetChatCompletionsAsync(completionOptions);
 ```
 
+The proxy also supports image generation using the DALL-E 2 model.
 ## That's it!
 
 Using the SDK is the same as before. You only need to note the proxy's URL and your key, both of which we will send to you. Also make sure you properly append the values to the URL and key as demo'd above.
