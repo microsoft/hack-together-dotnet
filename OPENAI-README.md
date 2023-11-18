@@ -31,7 +31,7 @@ AzureKeyCredential token = new(key + "/YOUR-GITHUB-ALIAS");
 OpenAIClient openAIClient = new(proxyUrl, token);
 ```
 
-### Model eployments
+### Model Deployments
 
 Whether you are generating completions, chat completions or embeddings - you will need to provide a deployment name. We have provided some for you in the proxy.
 
