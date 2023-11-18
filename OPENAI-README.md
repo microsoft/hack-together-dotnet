@@ -9,6 +9,8 @@ You won't have direct access to an Azure OpenAI instance. Rather you'll go throu
 1. [Fill out this form](https://aka.ms/hacktogether/dotnet/AzureOpenAIAccess) - we'll take a quick review of it, and then...
 1. Wait for an email with the URL to the proxy and your key.
 
+> Note: The key will be activated when the hackathon starts on November 20.
+
 ## How to use the proxy
 
 Once you have your key and the proxy's URL, you are almost there. You can use [Azure OpenAI .NET SDK](https://www.nuget.org/packages/Azure.AI.OpenAI/1.0.0-beta.9) in the same way as you normally would - except for a couple of parameter differences when instantiating the client.
