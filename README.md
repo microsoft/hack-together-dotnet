@@ -62,7 +62,7 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 
 ### Cloud Native
 
-* [eShop on Containers](https://github.com/dotnet-architecture/eShopOnContainers)
+* [The brand new eShop reference app!](https://github.com/dotnet/eshop)
 * [Aspire Samples](https://github.com/dotnet/aspire-samples)
 * [Aspire YouTube Summariser](https://github.com/devkimchi/aspire-youtube-summariser)
 
