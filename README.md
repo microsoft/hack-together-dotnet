@@ -58,7 +58,7 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 
 * [ConsoleGPT](https://github.com/aaronpowell/ConsoleGPT) - .NET Console demos for a chat experience using Azure OpenAI
 * [Image Generation sample](https://github.com/aaronpowell/GenerateAndChill) - Generate images with DALL-E, it also supports non-English language prompts through translations
-* [Chat with your own data](https://github.com/Azure-Samples/azure-search-openai-demo-csharp) - An application using the RAG (Retrival Augmented Generation) pattern to allow you to ask questions of your own data
+* [Chat with your own data](https://github.com/Azure-Samples/azure-search-openai-demo-csharp) - An application using the RAG (Retrieval Augmented Generation) pattern to allow you to ask questions of your own data
 
 ### Cloud Native
 
