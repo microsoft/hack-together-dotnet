@@ -44,7 +44,7 @@ Whether you are generating completions, chat completions or embeddings - you wil
 So if we were going to use chat completions our code would look like:
 
 ```csharp
-ChatCompletionsOptions completionsOptions = new() {
+ChatCompletionsOptions completionOptions = new() {
     MaxTokens=2048,
     Temperature=0.7f,
     NucleusSamplingFactor= 0.95f,
