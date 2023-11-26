@@ -58,10 +58,35 @@ var response = await openAIClient.GetChatCompletionsAsync(completionOptions);
 ```
 
 The proxy also supports image generation using the DALL-E 2 model.
-## That's it!
+
+### That's it!
 
 Using the SDK is the same as before. You only need to note the proxy's URL and your key, both of which we will send to you. Also make sure you properly append the values to the URL and key as demo'd above.
 
 You're limited to the model deployments listed above. Make sure you use the name exactly as specified.
+
+## How to use the playground
+
+Want to play around with the system message and the prompts before creating your app? We've built a playground you can use to prototype your idea out to make sure it works as expected before you spend too much time coding.
+
+To use it go to: `https://aoai.hacktogether.com`.
+
+That will load up a website that looks like this:
+
+    ![Screenshot of the empty hackathon playground](./images/empty-playground.png)
+
+In the upper right corner there's a text box for an **API Key**. Enter the key you were sent in your registration email followed by a forward slash followed by your GitHub username. It will look something like this:
+
+    > `this-will-be-a-guid/codemillmatt`
+
+It will log you in and you'll be able to fine tune various settings so you don't have to mess around your code to see the results. Rapid prototyping at it's best!
+
+Here we changed the system prompt and started asking it to brainstorm some hackathon projects.
+
+![Screenshot of the playground asking what type of hackathon projects to build](./images/playground.png)
+
+From here you can tweak the temperature, top P, and so on. And see how many tokens your requests use. Remember to use this responsibly.
+
+## Good luck!
 
 Good luck! We have plenty of [learning materials available](https://github.com/microsoft/Hack-Together-DotNet#ai-1) for you to learn more.
