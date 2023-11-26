@@ -73,11 +73,11 @@ To use it go to: `https://aoai.hacktogether.com`.
 
 That will load up a website that looks like this:
 
-    ![Screenshot of the empty hackathon playground](./images/empty-playground.png)
+![Screenshot of the empty hackathon playground](./images/empty-playground.png)
 
 In the upper right corner there's a text box for an **API Key**. Enter the key you were sent in your registration email followed by a forward slash followed by your GitHub username. It will look something like this:
 
-    > `this-will-be-a-guid/codemillmatt`
+    > this-will-be-a-guid/codemillmatt
 
 It will log you in and you'll be able to fine tune various settings so you don't have to mess around your code to see the results. Rapid prototyping at it's best!
 
