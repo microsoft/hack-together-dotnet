@@ -24,7 +24,9 @@ Follow the steps below to successfully complete the hackathon.
 
 **Introduce yourself**, we'd like to get to know you! 🥳 [GitHub Discussions | Let's get to know each other 🎉](https://github.com/microsoft/hack-together-dotnet/discussions/4#discussion-5776970)
 
-**Planning on hacking with Azure OpenAI?** Make sure to [request access to the API.](https://aka.ms/oaiapply)
+**Planning on hacking with Azure OpenAI?** We're able to offer no-cost, limited access to Azure OpenAI - no Azure account needed. But we do ask you to use this privilege responsibly! [Fill out this form](https://aka.ms/hacktogether/dotnet/AzureOpenAIAccess) to apply. Then look for an email from `DoNotReply@hacktogether.net` within 1 business day. While you're waiting, [check out the instructions](./OPENAI-README.md) on what to do when you get access.
+
+> Note: The key will be activated when the hackathon starts on November 20.
 
 ### #01 - Start hacking on November 20th
 
@@ -35,6 +37,7 @@ Either team up (max 3 team members) or fly solo to join the hacking! Make sure t
 [![Calendar Invite](https://img.shields.io/badge/ADD%20TO%20CALENDAR-4285F4?style=for-the-badge&label=&labelColor=555555&logoColor=white&logo=googlecalendar)](https://aka.ms/hacktogether/dotnet/sessions)
 
 * **November 20th @ 2 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231120T220000&p1=1244) - Join live:** [Welcome and what's new in .NET 8 with Aaron Powell, Matt Soucoup and Gaurav Seth](https://aka.ms/hacktogether/dotnet/session1)
+* **November 22nd @ 9 AM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231127T190000&p1=1244) - Join live:** [Hack Together .NET - Build Generative AI apps with Open AI with Chris Noring](https://aka.ms/hacktogether/dotnet/session_nov22)
 * **November 27th @ 11 AM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231127T190000&p1=1244) - Join live:** [Generative AI for the .NET developer with Matt Soucoup and Diego Colombo](https://aka.ms/hacktogether/dotnet/session2)
 * **November 28th @ 4 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231128T220000&p1=1244) - Join live:** .NET 8 - [Your stack for building Cloud Native apps with Justin Yoo, Jorge Arterio and Paul Yu](https://aka.ms/hacktogether/dotnet/session3)
 * **December 4th @ 3 PM Pacific [![Convert to your timezone](https://img.shields.io/badge/convert_to_your_timezone_%F0%9F%8C%8D-green)](https://www.timeanddate.com/worldclock/converter.html?iso=20231204T230000&p1=1244) - Join live:** [Wrap up with special guest stars](https://aka.ms/hacktogether/dotnet/session4)
@@ -58,7 +61,7 @@ If you are looking for scenarios or project ideas to get inspired, we have many 
 
 * [ConsoleGPT](https://github.com/aaronpowell/ConsoleGPT) - .NET Console demos for a chat experience using Azure OpenAI
 * [Image Generation sample](https://github.com/aaronpowell/GenerateAndChill) - Generate images with DALL-E, it also supports non-English language prompts through translations
-* [Chat with your own data](https://github.com/Azure-Samples/azure-search-openai-demo-csharp) - An application using the RAG (Retrival Augmented Generation) pattern to allow you to ask questions of your own data
+* [Chat with your own data](https://github.com/Azure-Samples/azure-search-openai-demo-csharp) - An application using the RAG (Retrieval Augmented Generation) pattern to allow you to ask questions of your own data
 
 ### Cloud Native
 
