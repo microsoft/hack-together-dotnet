@@ -24,13 +24,13 @@ string proxyUrl = "https://hacktogether.microsoft.com";
 string key = "abc123";
 
 // the full url is appended by /v1/api
-Uri proxyUrl = new(proxyUrl + "/v1/api");
+Uri fullProxyUrl = new Uri(proxyUrl + "/v1/api");
 
 // the full key is appended by "/YOUR-GITHUB-ALIAS"
-AzureKeyCredential token = new(key + "/YOUR-GITHUB-ALIAS");
+AzureKeyCredential token = new AzureKeyCredential(key + "/YOUR-GITHUB-ALIAS");
 
 // instantiate the client with the "full" values for the url and key/token
-OpenAIClient openAIClient = new(proxyUrl, token);
+OpenAIClient openAIClient = new OpenAIClient(fullProxyUrl, token);
 ```
 
 ### Model Deployments
