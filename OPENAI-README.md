@@ -37,7 +37,7 @@ OpenAIClient openAIClient = new(proxyUrl, token);
 
 Whether you are generating completions, chat completions or embeddings - you will need to provide a deployment name. We have provided some for you in the proxy.
 
-* **Chat completions:** `gpt-35-turbo`
+* **Chat completions:** `gpt-3.5-turbo`
 * **Embeddings:** `text-embedding-ada-002`
 * **Completions:** `davinci-002`
 
@@ -48,7 +48,7 @@ ChatCompletionsOptions completionOptions = new() {
     MaxTokens=2048,
     Temperature=0.7f,
     NucleusSamplingFactor= 0.95f,
-    DeploymentName = "gpt-35-turbo"
+    DeploymentName = "gpt-3.5-turbo"
 };
 
 completionOptions.Messages.Add(new ChatMessage(ChatRole.System, "you are a helpful tax accountant and want to lower everybody's taxes."));
