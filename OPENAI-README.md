@@ -20,11 +20,14 @@ For the sake of this document, pretend the proxy's URL is `https://hacktogether.
 ### Instantiate the client
 
 ```csharp
+using Azure;
+using Azure.AI.OpenAI;
+
 string proxyUrl = "https://hacktogether.microsoft.com";
 string key = "abc123";
 
 // the full url is appended by /v1/api
-Uri proxyUrl = new(proxyUrl + "/v1/api");
+Uri proxyUri = new(proxyUrl + "/v1/api");
 
 // the full key is appended by "/YOUR-GITHUB-ALIAS"
 AzureKeyCredential token = new(key + "/YOUR-GITHUB-ALIAS");
