@@ -135,6 +135,7 @@ jobs:
 
         echo "isValidRepositoryUrl=$isValidRepositoryUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
         echo "isValidVideoUrl=$isValidVideoUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
+        Write-Host $isValidVideoUrl
 
     - name: Add label - Under review
       if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false'
