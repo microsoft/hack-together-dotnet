@@ -131,11 +131,12 @@ jobs:
       shell: pwsh
       run: |
         $isValidRepositoryUrl = $("${{ steps.projectDetails.outputs.repositoryUrl }}".StartsWith("https://github.com")).ToString().ToLowerInvariant()
-        $isValidVideoUrl = $("${{ steps.projectDetails.outputs.videoUrl }}" -match '^https:\/\/youtube\.com|youtu\.be').ToString().ToLowerInvariant()
+        $isValidVideoUrl = $("${{ steps.projectDetails.outputs.videoUrl }}" -match '^https:\/\/(youtube\.com|youtu\.be)').ToString().ToLowerInvariant()
 
         echo "isValidRepositoryUrl=$isValidRepositoryUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
         echo "isValidVideoUrl=$isValidVideoUrl" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf-8 -Append
         Write-Host $isValidVideoUrl
+        Write-Host ${{ steps.projectDetails.outputs.videoUrl }}
 
     - name: Add label - Under review
       if: steps.project.outputs.isValid == 'true' && steps.project.outputs.isOverdue == 'false'
