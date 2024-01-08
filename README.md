@@ -2,7 +2,17 @@
 
 ![dotnet hack together banner (1)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/6b34a40e-27d1-4b6c-8604-f45aceb9877e)
 
-[![Register](https://img.shields.io/badge/Hack_Together-Register-512BD4?style=for-the-badge&logoColor=white&logo=dotnet)](https://aka.ms/hacktogether/dotnet/register)
+## The hack is over!
+
+Thank you to everybody who took part in the .NET Hack Together - The Great .NET 8 Hack. There were a ton of great project submissions and we hope that you learned a lot about .NET 8 and building cloud native or AI apps with it. Whether you created a project or learned along with the live streams - we want to say thank you 🙏 for coming along on this learning journey with us. You don't have to stop learning though - you can follow us at the [.NET YouTube channel](https://youtube.com/@dotnet) or take free, online, self-paced training with [Microsoft Learn](https://learn.microsoft.com/training/browse/?products=dotnet).
+
+Now - without further ado the winners are:
+
+* Best overall: [NASA TechPort Headlines](https://github.com/tagr/greatnet8hack-techport)
+* Best AI: [Betakads](https://github.com/ZadokJoshua/betakads-avalonia-app)
+* Best cloud native: [AI Counselor](https://github.com/Cloud-Jas/AI-Counselor)
+
+Read all about the apps in this [wrap-up blog post](https://devblogs.microsoft.com/dotnet/great-dotnet-8-hack-winners/).
 
 ## Introduction
 
@@ -15,6 +25,8 @@ The hackathon starts on **November 20th** right after .NET Conf and ends on **De
 ## Hack Together Roadmap 🗺️
 
 ![dotnet hack roadmap (2)](https://github.com/microsoft/hack-together-dotnet/assets/45178151/dd535d27-eb67-4aff-bd69-e0120c3309ff)
+
+_**The hack is over, but we're leaving this up as a way for folks to see what happened!**_
 
 Follow the steps below to successfully complete the hackathon.
 
